@@ -58,14 +58,14 @@ def enviar(noticias):
     </html>
     '''
 
-    email='viniciuscamparini@gmail.com'
-    senha='qtfz dajc fiyr knqg'
+    email=''
+    senha=''
 
     msg=MIMEText(html,'html')
 
-    msg['Subject'] ='Teste'
+    msg['Subject'] =''
     msg['From'] = email
-    msg['To'] ='campasrini@gmail.com'
+    msg['To'] =''
 
 
     try :
